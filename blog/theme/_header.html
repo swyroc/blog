@@ -1,0 +1,27 @@
+<div class="row">
+    <header class="header-wrap">
+        <nav class="navbar navbar-default col-sm-12 col-xs-12 col-md-12 col-lg-12 navbar-ﬁxed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="{{.Site.Root}}/">{{if .Site.Logo}}<img class="logo" src="{{.Site.Logo}}" />{{end}}</a>
+                    <a class="navbar-brand" href="{{.Site.Root}}/"><label>{{.Site.Title}}</label></a>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav tag pull-right">
+                        <li><a href="{{.Site.Root}}">首页</a></li>
+                        <li><a href="{{.Site.Root}}/archive.html">{{i18n "archive"}}</a></li>
+                        <li><a href="{{.Site.Root}}/tag.html">{{i18n "tag"}}</a></li>
+                        <li><a href="{{.Site.Root}}/about.me.html">关于</a></li>
+                        {{if .Site.Url}}<li><a href="{{.Site.Root}}/atom.xml">{{i18n "rss"}}</a></li>{{end}}
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>

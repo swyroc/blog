@@ -1,0 +1,5 @@
+User-agent: *
+Allow:/
+
+
+Sitemap: https://suveng.github.io/blog/sitemap.xml 

@@ -1,0 +1,50 @@
+<div class="social-share" data-disabled="google,twitter,facebook,diandian" data-description="{{.Title}}">
+    分享：
+</div>
+<div id="vcomments"></div>
+<script>
+new Valine({
+    el: '#vcomments',
+    appId: 'RlLGYAGU0zKGeVW7lyWgngqv-gzGzoHsz',
+    appKey: 'F4eypfCvnw2PzMB7PAeFhou7',
+    notify: false,
+    verify: false,
+    avatar: 'robohash',
+    placeholder: '留下你的足迹...',
+    // visitor: true // 阅读量统计
+})
+</script>
+<!-- gitment -->
+<!-- <div id="container"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+  owner: 'suveng',
+  repo: 'blog',
+  oauth: {
+    id: window.location.pathname,
+    client_id: 'da5b4586f3771bac0644',
+    client_secret: '7561257a2cfd2a4c70ba698b3081568b977b45a6',
+  },
+})
+gitment.render('container')
+</script> -->
+<!-- 来必力City版安装代码 -->
+<!-- <div id="lv-container" data-id="city" data-uid="MTAyMC80MTY0Ny8xODE5Mw==">
+  <script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+  </script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div> -->
+<!-- City版安装代码已完成 -->
