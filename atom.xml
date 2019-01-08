@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>suveng&#39;s blog</title>
+  <id>https://suveng.github.io/blog</id>
+  <updated>2019-01-08T14:57:59Z</updated>
+  <subtitle>你作出选择的那一日，在日记上，相当沉闷和平凡，当时还以为是生命中普通的一天。</subtitle>
+  <link href="https://suveng.github.io/blog"></link>
+  <author>
+    <name>suveng&#39;s blog</name>
+  </author>
+  <entry>
+    <title>ajax传参形式</title>
+    <updated>2018-12-31T23:00:00+08:00</updated>
+    <id>tag:suveng.github.io,2018-12-31:/blog/20181231/$.ajax()传参形式.html</id>
+    <link href="https://suveng.github.io/blog/20181231/$.ajax()传参形式.html" rel="alternate"></link>
+    <summary type="html">&lt;p&gt;$.ajax()是jQuery发送异步请求的方式，简化了原生js的操作过程。介绍几种参数形式&lt;/p&gt;&#xA;</summary>
+    <author>
+      <name>suveng</name>
+    </author>
+  </entry>
+</feed>
